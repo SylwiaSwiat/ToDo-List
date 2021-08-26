@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/13f87f03f4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>ToDoList</title>
+</head>
+<body>
+    <div class="todo">
+        <div class="header">
+            <h1>ToDo List</h1>
+            <input type="text" class="todoInput" autofocus placeholder="Create new task...">
+            <button class="addBtn">Add</button>
+        </div>
+        <div class="todoList">
+            <h3>Tasks List:</h3>
+            <p class="alertInfo">No tasks on the list.</p>
+            <ul> </ul>
+        </div>
+    </div>
+    
+    <div class="popup">
+        <h3>Edit task:</h3>
+        <div class="popupBody">
+            <p class="popupInfo"></p>
+            <input type="text" class="popupInput" placeholder="Edit task...">
+            <button class="popupBtn accept">Confirm</button>
+            <button class="popupBtn cancel">Cancel</button>
+        </div>
+    </div>
+</body>
+</html>
